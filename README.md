@@ -1,6 +1,6 @@
 # Start up Instructions
 
-In order to launch navigate to directory, run `npm i` then `node index.js`
+In order to launch navigate to directory, run `npm i` then `npm start`
 
 Navigate to `localhost:8080/`
 
