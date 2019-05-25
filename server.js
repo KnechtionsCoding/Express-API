@@ -13,4 +13,6 @@ app.get('/scraper/:type', function (req, res) {
     return res.send('Scrape the ' + req.params.type + ' resource');
    });
 
-app.listen(process.env.PORT || 8080);
+app.listen(8080, function () {
+    console.log('Listening on 8080')
+});
